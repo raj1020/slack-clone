@@ -8,7 +8,7 @@ import Login from './components/Auth/Login/Login.component';
 import Register from './components/Auth/Register/Register.component';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Router>
       <Switch>
         <Route path="/login" component={Login} />
@@ -17,7 +17,8 @@ ReactDOM.render(
       </Switch>
     </Router>
    
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
